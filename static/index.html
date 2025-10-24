@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Control Inteligente de Ventilador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🌬 Sistema de Control Inteligente de Ventilador</h1>
+    <div id="panel">
+        <p>Temperatura: <span id="temp">--</span> °C</p>
+        <p>Humedad: <span id="hum">--</span> %</p>
+        <p>Ventilador: <span id="fan">--</span></p>
+        <p>Confianza IA: <span id="conf">--</span></p>
+    </div>
+    <button onclick="reentrenar()">Reentrenar IA</button>
+    <button onclick="exportar()">Exportar Datos</button>
+    <script src="script.js"></script>
+</body>
+</html>
